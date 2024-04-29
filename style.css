@@ -20,14 +20,13 @@ body {
 /* rules header */
 header{
     text-align: center;
-    margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 50px;
 }
 
 header h1{
     margin-top: 10px;
-    color:rgba(255, 0, 0, 0.709)
+    color:rgba(205, 6, 13, 0.709);
+    padding-bottom: 40px;
 }
 
 /* rules debug square float*/
@@ -41,7 +40,7 @@ header h1{
     float: left;   
     margin: 15px 20px ;
     width: calc( (100% / 3 ) - 40px);  
-    box-shadow: 3px 3px 9px grey;
+    box-shadow: 3px 3px 9px rgb(90, 87, 87);
     background-color: #0f0e17;  
 } 
 
