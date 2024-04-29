@@ -31,15 +31,11 @@ header h1{
 }
 
 /* rules debug square float*/
-
-
-
 .row::after{
  padding-top: 20px;
  content: " ";
  clear: both;
 }
-
 
 .squarebox{
     float: left;   
@@ -56,9 +52,7 @@ header h1{
     float: left;   
 }
 
-
 /* rules container text */
-
 .text{
     float: left;
     color: white;
