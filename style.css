@@ -2,3 +2,43 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
+
+/* rules general */
+#container {
+    width: 90%;
+    margin: auto 0 auto;
+    padding: 10px;
+}
+
+/* rules header */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1{
+    color:rgba(255, 0, 0, 0.709)
+}
+
+/* rules debug square float*/
+
+.row{
+    margin-top: 50px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    background-color: blueviolet;
+    min-height: 300px;
+    border: solid yellow 2px;
+    float: left;
+    width: calc(100% / 6 - 20px );
+   
+}
+
+
